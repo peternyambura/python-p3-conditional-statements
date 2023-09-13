@@ -5,7 +5,6 @@ def admin_login(username, password):
         return "Accsess granted"
     else:
         return "Accsess Denied, Contact Admin for Help"
-    pass
 
 def hows_the_weather(temperature):
     if temperature < 40:
@@ -38,4 +37,3 @@ def calculator(operation, num1, num2):
         return num1 / num2
     else:
         return "invalid Operation" 
-    pass
